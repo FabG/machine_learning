@@ -41,7 +41,10 @@ The **disadvantages** of support vector machines include:
 
 
 ###### SVM Notebooks
-- [SVM Binary classifier on Cancer data](supervised_ml/svm/svm_classifier_breast_cancer/svm_classifier_cancer.ipynb)
-- [SVM and Other binary Classifiers on Cancer Data](supervised_ml/svm/svm_classifier_breast_cancer/multiple_classifiers_cancer.ipynb) => SVM, Logistic Regression, KNeighbor, Naïve Bayes, Random Forest, Decision Tree
+- [SVM binary classifier on Cancer data](supervised_ml/svm/svm_classifier_breast_cancer/svm_classifier_cancer.ipynb)
+- [SVM and other binary classifiers on Cancer Data](supervised_ml/svm/svm_classifier_breast_cancer/multiple_classifiers_cancer.ipynb) => SVM, Logistic Regression, KNeighbor, Naïve Bayes, Random Forest, Decision Tree
+- [SVM on Credit Card Fraud data](supervised_ml/svm/svm_classifier_credit_card_fraud/svm_credit_card_fraud.ipynb)
+
+
 
 #### 2.2 Unsupervised algorithms
