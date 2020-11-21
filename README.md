@@ -1,8 +1,9 @@
 # Machine Learning
 
 This repo includes a collection of both supervised and unsupervised machine learning algorithms, all in python, and leveraging Open Source packages like [scikitlearn](https://scikit-learn.org/stable/index.html).  
-The goal of this repo is to familiarize ourselves with these algorithms, applied to various data sets and use cases and see if there are good candidates to onboard into our projects or platform, namely [MLaaS](https://github.cloud.capitalone.com/MLaaS/mlaas-api) (Machine Learning as a Service).  
-To note I am also capturing additional notebooks that leverage Amazon SageMaker and their own improved implementation of some of these algorithms in this [aws-sagemaker-notebooks](https://github.cloud.capitalone.com/exu364/aws-sagemaker-notebooks) repo.
+The goal of this repo is to familiarize ourselves with these algorithms, applied to various data sets and use cases and see if there are good candidates to onboard into our projects or platform(s).
+
+To note I am also capturing additional notebooks that leverage Amazon SageMaker and their own improved implementation of some of these algorithms in this [aws-sagemaker-notebooks](https://github.com/FabG/aws-sagemaker-notebooks) repo.
 
 ### 1. Installation & How to Run
 It is highly recommended to utilize a virtual environment like [virtualenv](https://pypi.org/project/virtualenv/) or [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) due to this project having several libraries to import.
@@ -41,6 +42,6 @@ The **disadvantages** of support vector machines include:
 
 ###### SVM Notebooks
 - [SVM Binary classifier on Cancer data](supervised_ml/svm/svm_classifier_breast_cancer/svm_classifier_cancer.ipynb)
-
+- [SVM and Other binary Classifiers on Cancer Data](supervised_ml/svm/svm_classifier_breast_cancer/multiple_classifiers_cancer.ipynb) => SVM, Logistic Regression, KNeighbor, Naïve Bayes, Random Forest, Decision Tree
 
 #### 2.2 Unsupervised algorithms
