@@ -57,6 +57,13 @@ For example, in a regression problem, each decision tree in the forest considers
  - [RandomForest as a Multi-classifier Vs Decision Tree and GuassianNB on Wine data](supervised-ml/random-forest/random-forest-game-of-wines.ipynb)
 
 
+##### 2.2 Supervised algorithms - comparing Classifiers
+ - [Classifier Comparison plot](supervised-ml/classifiers/classifier_comparison_plot.ipynb)
+
+Here is how classifiers compares based on 3 different synthetic datasets.
+The point of this example is to illustrate the nature of decision boundaries of different classifiers. This should be taken with a grain of salt, as the intuition conveyed by these examples does not necessarily carry over to real datasets
+![classifier_comparison_plot](images/classifier_comparison_plot.png)
+
 
 
 #### 2.2 Unsupervised algorithms
