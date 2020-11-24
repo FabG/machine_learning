@@ -66,4 +66,15 @@ The point of this example is to illustrate the nature of decision boundaries of 
 
 
 
-#### 2.2 Unsupervised algorithms
+#### 2.3 Unsupervised algorithms
+
+##### 2.3.1 PCA - Principal Component Analysis
+PCA is fundamentally a dimensionality reduction algorithm, but it can also be useful as a tool for visualization, for noise filtering, for feature extraction and engineering, and much more.
+
+###### PCA Notebooks
+ - [Principal Component Analysis](unsupervised-ml/pca/principal-component-analysis.ipynb) => Dimension reduction, Visualization and Noise filtering
+
+#### 3 Resources
+ - [Kaggle game of wines](https://www.kaggle.com/booleanhunter/game-of-wines)
+ - [In depth Principal Component Analysis](https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html)
+ - [Python Data Science handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
