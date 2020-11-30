@@ -46,6 +46,8 @@ Naive Bayes classifiers tend to perform especially well in one of the following 
 
 ###### Naive Bayes Notebooks
 - [Naive Bayes](supervised-ml/naive-bayes/naive-bayes.ipynb)
+- [Naive Bayes on titanic Kaggle dataset](supervised-ml/naive-bayes/naive-bayes-titanic.ipynb)
+
 
 ##### 2.1.2 SVM (Support vector machines)
 ###### SVM Intro
