@@ -25,7 +25,29 @@ Once installed, run:
 ### 2. Collection of Notebooks showcasing different ML algorithms
 
 #### 2.1 Supervised algorithms
-##### 2.1.1 SVM (Support vector machines)
+##### 2.1.1 Naive Bayes
+**Naive Bayes** models are a group of extremely **fast and simple classification algorithm that are often suitable for very high-dimensional datasets**. Because they are so fast and have so few tunable parameters, they end up being very useful as a quick-and-dirty **baseline for a classification problem**.
+
+When to use Naive Bayes?
+Because naive Bayesian classifiers make such stringent assumptions about data, they will generally not perform as well as a more complicated model. That said, they have several advantages:
+
+- They are extremely fast for both training and prediction
+- They provide straightforward probabilistic prediction
+- They are often very easily interpretable
+- They have very few (if any) tunable parameters
+
+These advantages mean a naive Bayesian classifier is often a good choice as an initial baseline classification. If it performs suitably, then congratulations: you have a very fast, very interpretable classifier for your problem. If it does not perform well, then you can begin exploring more sophisticated models, with some baseline knowledge of how well they should perform.
+
+Naive Bayes classifiers tend to perform especially well in one of the following situations:
+
+- When the naive assumptions actually match the data (very rare in practice)
+- For very well-separated categories, when model complexity is less important
+- For very high-dimensional data, when model complexity is less important
+
+###### Naive Bayes Notebooks
+- [Naive Bayes](supervised-ml/naive-bayes/naive-bayes.ipynb)
+
+##### 2.1.2 SVM (Support vector machines)
 ###### SVM Intro
 [SVM](https://scikit-learn.org/stable/modules/svm.html) Support vector machines (SVMs) are a set of supervised learning methods used for **classification**, **regression** and **outliers detection**.
 
@@ -47,7 +69,7 @@ The **disadvantages** of support vector machines include:
 
 
 
-##### 2.1.2 Random Forest
+##### 2.1.3 Random Forest
 Random forest, like its name implies, consists of a large number of individual decision trees that operate as an ensemble.
 It can be used for **classification**, **regression** and other tasks that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean/average prediction (regression) of the individual trees.
 For example, in a regression problem, each decision tree in the forest considers a random subset of features when forming questions and only has access to a random set of the training data points. This increases diversity in the forest leading to more robust overall predictions and the name ‘random forest.’ When it comes time to make a prediction, the random forest takes an average of all the individual decision tree estimates.
