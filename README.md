@@ -25,7 +25,7 @@ Once installed, run:
 ### 2. Collection of Notebooks showcasing different ML algorithms
 
 #### 2.1 Supervised algorithms
-##### 2.1.1 Naive Bayes
+##### 2.1.1 Naive Bayes (Classification)
 **Naive Bayes** models are a group of extremely **fast and simple classification algorithm that are often suitable for very high-dimensional datasets**. Because they are so fast and have so few tunable parameters, they end up being very useful as a quick-and-dirty **baseline for a classification problem**.
 
 When to use Naive Bayes?
@@ -49,8 +49,14 @@ Naive Bayes classifiers tend to perform especially well in one of the following 
 - [Naive Bayes on titanic Kaggle dataset](supervised-ml/naive-bayes/naive-bayes-titanic.ipynb)
 
 
-##### 2.1.2 SVM (Support vector machines)
-###### SVM Intro
+##### 2.1.2 Linear Regression (Regression)
+[Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) models are supervised learning models. They are usually a good starting point for regression tasks. Such models are popular because they can be fit very quickly, and are very interpretable. You can have the simplest form of a linear regression model (i.e., fitting a straight line to data) but can also have models extended to more complicated data behavior.
+
+###### Linear Regression Notebooks
+- [In depth - Linear Regression](supervised-ml/linear-regression/linear-regression.ipynb)
+
+
+##### 2.1.3 SVM - Support vector machines (Regression/Classification)
 [SVM](https://scikit-learn.org/stable/modules/svm.html) Support vector machines (SVMs) are a set of supervised learning methods used for **classification**, **regression** and **outliers detection**.
 
 The **advantages** of support vector machines are:
@@ -72,7 +78,7 @@ The **disadvantages** of support vector machines include:
 
 
 
-##### 2.1.3 Random Forest
+##### 2.1.4 Random Forest (Classification/Regression)
 Random forest, like its name implies, consists of a large number of individual decision trees that operate as an ensemble.
 It can be used for **classification**, **regression** and other tasks that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean/average prediction (regression) of the individual trees.
 For example, in a regression problem, each decision tree in the forest considers a random subset of features when forming questions and only has access to a random set of the training data points. This increases diversity in the forest leading to more robust overall predictions and the name ‘random forest.’ When it comes time to make a prediction, the random forest takes an average of all the individual decision tree estimates.
