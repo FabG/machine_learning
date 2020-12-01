@@ -45,7 +45,7 @@ Naive Bayes classifiers tend to perform especially well in one of the following 
 - For very high-dimensional data, when model complexity is less important
 
 ###### Naive Bayes Notebooks
-- [Naive Bayes](supervised-ml/naive-bayes/naive-bayes.ipynb)
+- [In Depth - Naive Bayes](supervised-ml/naive-bayes/naive-bayes.ipynb)
 - [Naive Bayes on titanic Kaggle dataset](supervised-ml/naive-bayes/naive-bayes-titanic.ipynb)
 
 
@@ -65,6 +65,7 @@ The **disadvantages** of support vector machines include:
 
 
 ###### SVM Notebooks
+- [In Depth - Support Vector Machine](supervised-ml/svm/support-vector-machine.ipynb)
 - [SVM binary classifier on Cancer data](supervised-ml/svm/svm_classifier_breast_cancer/svm_classifier_cancer.ipynb)
 - [SVM and other binary classifiers on Cancer Data](supervised-ml/svm/svm_classifier_breast_cancer/multiple_classifiers_cancer.ipynb) => SVM, Logistic Regression, KNeighbor, Naïve Bayes, Random Forest, Decision Tree
 - [SVM on Credit Card Fraud data](supervised-ml/svm/svm_classifier_credit_card_fraud/svm_credit_card_fraud.ipynb)
