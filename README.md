@@ -113,7 +113,9 @@ PCA is fundamentally a dimensionality reduction algorithm, but it can also be us
 ###### PCA Notebooks
  - [In Depth - Principal Component Analysis )](unsupervised-ml/pca/principal-component-analysis.ipynb) => Dimension reduction, Visualization and Noise filtering
  - [PCA - Data Visualization](unsupervised-ml/pca/pca-for-data-visualization.ipynb)
-- [PCA - To Speed Up ML](unsupervised-ml/pca/pca-to-speed-up-ml.ipynb)
+ - [PCA - To Speed Up ML](unsupervised-ml/pca/pca-to-speed-up-ml.ipynb)
+ - [PCA - Dimension reduction on heart data](unsupervised-ml/pca/pca-heart-disease.ipynb)
+
 
 #### 3 Resources
  - [Kaggle game of wines](https://www.kaggle.com/booleanhunter/game-of-wines)
