@@ -110,11 +110,15 @@ The point of this example is to illustrate the nature of decision boundaries of 
 ##### 2.3.1 PCA - Principal Component Analysis
 PCA is fundamentally a dimensionality reduction algorithm, but it can also be useful as a tool for visualization, for noise filtering, for feature extraction and engineering, and much more.
 
+Note: PCA is effected by scale so you need to scale the features in your data before applying PCA. Use `StandardScaler` to help you standardize the dataset’s features onto unit scale (mean = 0 and variance = 1) which is a requirement for the optimal performance of many machine learning algorithms.  
+If you want to see the negative effect not scaling your data can have, scikit-learn has a section on the [effects of not standardizing your data](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_scaling_importance.html#sphx-glr-auto-examples-preprocessing-plot-scaling-importance-py)
+
 ###### PCA Notebooks
  - [In Depth - Principal Component Analysis )](unsupervised-ml/pca/principal-component-analysis.ipynb) => Dimension reduction, Visualization and Noise filtering
  - [PCA - Data Visualization](unsupervised-ml/pca/pca-for-data-visualization.ipynb)
  - [PCA - To Speed Up ML](unsupervised-ml/pca/pca-to-speed-up-ml.ipynb)
  - [PCA - Dimension reduction on heart data](unsupervised-ml/pca/pca-heart-disease.ipynb)
+ - [PCA - Dimension reduction on gym crowdedness data](unsupervised-ml/pca/pca-crowdedness-gym.ipynb)
 
 
 #### 3 Resources
