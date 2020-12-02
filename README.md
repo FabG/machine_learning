@@ -111,11 +111,12 @@ The point of this example is to illustrate the nature of decision boundaries of 
 PCA is fundamentally a dimensionality reduction algorithm, but it can also be useful as a tool for visualization, for noise filtering, for feature extraction and engineering, and much more.
 
 ###### PCA Notebooks
- - [In Depth - Principal Component Analysis](unsupervised-ml/pca/principal-component-analysis.ipynb) => Dimension reduction, Visualization and Noise filtering
+ - [In Depth - Principal Component Analysis )](unsupervised-ml/pca/principal-component-analysis.ipynb) => Dimension reduction, Visualization and Noise filtering
  - [PCA - Data Visualization](unsupervised-ml/pca/pca-for-data-visualization.ipynb)
-
+- [PCA - To Speed Up ML](unsupervised-ml/pca/pca-to-speed-up-ml.ipynb)
 
 #### 3 Resources
  - [Kaggle game of wines](https://www.kaggle.com/booleanhunter/game-of-wines)
  - [In depth Principal Component Analysis](https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html)
- - [Python Data Science handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
+ - [Python Data Science handbook (and notebooks)](https://github.com/jakevdp/PythonDataScienceHandbook)
+ - [Machine Learning with Scikit-learn](https://www.linkedin.com/learning/machine-learning-with-scikit-learn/effective-machine-learning-with-scikit-learn)
