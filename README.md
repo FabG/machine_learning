@@ -120,6 +120,23 @@ If you want to see the negative effect not scaling your data can have, scikit-le
  - [PCA - Dimension reduction on heart data](unsupervised-ml/pca/pca-heart-disease.ipynb)
  - [PCA - Dimension reduction on gym crowdedness data](unsupervised-ml/pca/pca-crowdedness-gym.ipynb)
 
+ ##### 2.3.2 Manifold Learning
+ The previous algorithm principal component analysis (PCA) can be used in the dimensionality reduction task — reducing the number of features of a dataset while maintaining the essential relationships between the points. While PCA is flexible, fast, and easily interpretable, it does not perform so well when there are **nonlinear relationships** within the data.
+
+ To address this deficiency, we can turn to a class of methods known as [Manifold Learning](https://scikit-learn.org/stable/modules/manifold.html) — a class of unsupervised estimators that seeks to describe datasets as low-dimensional manifolds embedded in high-dimensional spaces.
+
+ Manifold learning is an approach to non-linear dimensionality reduction. Algorithms for this task are based on the idea that the dimensionality of many data sets is only artificially high.
+ Manifold Learning can be thought of as an attempt to generalize linear frameworks like PCA to be sensitive to non-linear structure in data. Though supervised variants exist, the typical manifold learning problem is unsupervised: it learns the high-dimensional structure of the data from the data itself, without the use of predetermined classifications.
+ The manifold learning implementations available in scikit-learn are summarized:
+ - Isomap algorithm, short for Isometric Mapping. Isomap can be viewed as an extension of Multi-dimensional Scaling (MDS) or Kernel PCA. Isomap seeks a lower-dimensional embedding which maintains geodesic distances between all points.
+ - Locally linear embedding (LLE) seeks a lower-dimensional projection of the data which preserves distances within local neighborhoods. It can be thought of as a series of local Principal Component Analyses which are globally compared to find the best non-linear embedding.
+ - Modified locally linear embedding (MLLE) - When the number of neighbors is greater than the number of input dimensions, use multiple weight vectors in each neighborhood as a regularization.
+ - Multi-dimensional Scaling (MDS) - seeks a low-dimensional representation of the data in which the distances respect well the distances in the original high-dimensional space. In general, MDS is a technique used for analyzing similarity or dissimilarity data. It attempts to model similarity or dissimilarity data as distances in a geometric spaces. The data can be ratings of similarity between objects, interaction frequencies of molecules, or trade indices between countries.
+ ..
+
+
+ ###### Manifold Learning Notebooks
+  - [In Depth - Manifold Learning](unsupervised-ml/manifold/manifold-learning.ipynb)
 
 #### 3 Resources
  - [Kaggle game of wines](https://www.kaggle.com/booleanhunter/game-of-wines)
