@@ -135,8 +135,16 @@ If you want to see the negative effect not scaling your data can have, scikit-le
  ..
 
 
- ###### Manifold Learning Notebooks
-  - [In Depth - Manifold Learning](unsupervised-ml/manifold/manifold-learning.ipynb)
+###### Manifold Learning Notebooks
+ - [In Depth - Manifold Learning](unsupervised-ml/manifold/manifold-learning.ipynb)
+
+##### 2.3.3 K-Means
+The [K-Means](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) algorithm clusters data by trying to separate samples in n groups of equal variance, minimizing a criterion known as the inertia or within-cluster sum-of-squares (see below). This algorithm requires the number of clusters to be specified. It scales well to large number of samples and has been used across a large range of application areas in many different fields.
+
+
+###### K-Means Learning Notebooks
+ - [In Depth - K-Means](unsupervised-ml/k-means/k-means.ipynb)
+ 
 
 #### 3 Resources
  - [Kaggle game of wines](https://www.kaggle.com/booleanhunter/game-of-wines)
