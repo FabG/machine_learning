@@ -146,13 +146,23 @@ The [K-Means](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.
  - [In Depth - K-Means](unsupervised-ml/k-means/k-means.ipynb)
 
 
-##### GMM (Gaussian Mixture Models)
+##### 2.3.4 GMM (Gaussian Mixture Models)
 [GMM](https://scikit-learn.org/stable/modules/mixture.html) is a package which enables one to learn Gaussian Mixture Models (diagonal, spherical, tied and full covariance matrices supported), sample them, and estimate them from data. Facilities to help determine the appropriate number of components are also provided.
 ![](images/sphx_glr_plot_gmm.png)
 A Gaussian mixture model is a probabilistic model that assumes all the data points are generated from a mixture of a finite number of Gaussian distributions with unknown parameters. One can think of mixture models as generalizing k-means clustering to incorporate information about the covariance structure of the data as well as the centers of the latent Gaussians.
 
 ###### GMM Notebooks
  - [In Depth - Gaussian Mixture Models](unsupervised-ml/gaussian-mixture/gaussian-mixtures.ipynb)
+
+
+##### 2.3.5 Kernel Density Estimation
+[KernelDensity](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KernelDensity.html)  estimation walks the line between unsupervised learning, feature engineering, and data modeling. Some of the most popular and useful density estimation techniques are mixture models such as Gaussian Mixtures.
+The free parameters of kernel density estimation are the `kernel`, which specifies the shape of the distribution placed at each point, and the `kernel bandwidth`, which controls the size of the kernel at each point.
+More information [here](https://scikit-learn.org/stable/modules/density.html)
+
+
+###### Kerne Density Notebooks
+ - [In Depth - Kernel Density Estimation](unsupervised-ml/kernel-density-estimation/kernel-density-estimation.ipynb)
 
 #### 3 Resources
  - [Kaggle game of wines](https://www.kaggle.com/booleanhunter/game-of-wines)
