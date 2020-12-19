@@ -24,6 +24,14 @@ Once installed, run:
 
 ### 2. Collection of Notebooks showcasing different ML algorithms
 
+#### 2.0 Feature Engineering Notebooks
+Before showcasing different algorithms in supervised and unsupervised ML, it is important to also prepare the data or features that the algorithms will be fit on. For that purpose, below is a list of notebooks that show various Feature Engineering techniques.
+
+ - [1 - Intro to Nympy and Pandas](feature-engineering/1-intro-numpy-pandas.ipynb)
+
+ - [10 - Feature Engineering with Categorical Data, Text and Images](feature-engineering/10-feature-engineering-categorical-data-text-images.ipynb)
+
+
 #### 2.1 Supervised algorithms
 ##### 2.1.1 Naive Bayes (Classification)
 **Naive Bayes** models are a group of extremely **fast and simple classification algorithm that are often suitable for very high-dimensional datasets**. Because they are so fast and have so few tunable parameters, they end up being very useful as a quick-and-dirty **baseline for a classification problem**.
@@ -95,6 +103,12 @@ A primary disadvantage of random forests is that the results are not easily inte
  - [In depth - Random Forest](supervised-ml/random-forest/random-forests.ipynb)
  - [RandomForest as a Multi-classifier Vs Decision Tree and GuassianNB on Wine data](supervised-ml/random-forest/random-forest-game-of-wines.ipynb)
 
+
+##### 2.1.5 Image Feature Extraction with HOG (Histogram of Oriented Gradients
+**HOG** (Histogram of Oriented Gradients) is a feature extraction technique which transforms image pixels into a vector representation that is sensitive to broadly informative image features regardless of confounding factors like illumination.
+
+###### HOG Notebooks
+- [Image Feature Extraction HOG](supervised-ml/skimage-hog/image-features.ipynb)
 
 ##### 2.2 Supervised algorithms - comparing Classifiers
  - [Classifier Comparison plot](supervised-ml/classifiers/classifier_comparison_plot.ipynb)
