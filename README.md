@@ -24,13 +24,18 @@ Once installed, run:
 
 ### 2. Collection of Notebooks showcasing different ML algorithms
 
-#### 2.0 Feature Engineering Notebooks
+#### 2.0.1 Feature Engineering Notebooks
 Before showcasing different algorithms in supervised and unsupervised ML, it is important to also prepare the data or features that the algorithms will be fit on. For that purpose, below is a list of notebooks that show various Feature Engineering techniques.
 
  - [1 - Intro to Nympy and Pandas](feature-engineering/1-intro-numpy-pandas.ipynb)
 
  - [10 - Feature Engineering with Categorical Data, Text and Images](feature-engineering/10-feature-engineering-categorical-data-text-images.ipynb)
 
+#### 2.0.2 Data Visualization Notebooks
+Below are some notebooks featuring `matplotlib` to plot features.
+- [1 - Intro to matplotlib](visualization/1-intro-matplotlib.ipynb)
+- [2 - Line plot](visualization/2-simple-line-plot.ipynb)
+- [3 - Scatter plot](visualization/3-simple-scatter-plot.ipynb)
 
 #### 2.1 Supervised algorithms
 ##### 2.1.1 Naive Bayes (Classification)
