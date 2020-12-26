@@ -36,6 +36,7 @@ Below are some notebooks featuring `matplotlib` to plot features.
 - [1 - Intro to matplotlib](visualization/1-intro-matplotlib.ipynb)
 - [2 - Line plot](visualization/2-simple-line-plot.ipynb)
 - [3 - Scatter plot](visualization/3-simple-scatter-plot.ipynb)
+- [4 - Error bar plot](visualization/4-errorbar.ipynb)
 
 #### 2.1 Supervised algorithms
 ##### 2.1.1 Naive Bayes (Classification)
