@@ -38,6 +38,7 @@ Below are some notebooks featuring `matplotlib` to plot features.
 - [3 - Scatter plot](visualization/3-simple-scatter-plot.ipynb)
 - [4 - Error bar plot](visualization/4-errorbar.ipynb)
 - [5 - Density and Contour Plots](visualization/5-density-contour-plots.ipynb)
+- [6 - Histograms and Binnings](visualization/6-histograms-binnings.ipynb)
 
 #### 2.1 Supervised algorithms
 ##### 2.1.1 Naive Bayes (Classification)
