@@ -28,8 +28,10 @@ Once installed, run:
 Before showcasing different algorithms in supervised and unsupervised ML, it is important to also prepare the data or features that the algorithms will be fit on. For that purpose, below is a list of notebooks that show various Feature Engineering techniques.
 
  - [1 - Intro to Nympy and Pandas](feature-engineering/1-intro-numpy-pandas.ipynb)
-
+ - [2 - Time Series Generation](feature-engineering/2-Time_Series_Generation.ipynb)
+ - [3 - Time Series OpenSource](feature-engineering/3-Time_Series_OpenSource.ipynb)
  - [10 - Feature Engineering with Categorical Data, Text and Images](feature-engineering/10-feature-engineering-categorical-data-text-images.ipynb)
+
 
 #### 2.0.2 Data Visualization Notebooks
 Below are some notebooks featuring `matplotlib` to plot features.
