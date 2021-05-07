@@ -1,6 +1,6 @@
 # Machine Learning
 
-This repo includes a collection of both supervised and unsupervised machine learning algorithms, all in python, and leveraging Open Source packages like [scikitlearn](https://scikit-learn.org/stable/index.html).  
+This repo includes a collection of both supervised and unsupervised machine learning algorithms, all in python, and leveraging Open Source packages like [scikitlearn](https://scikit-learn.org/stable/index.html) or [pytorch](https://pytorch.org).  
 The goal of this repo is to familiarize ourselves with these algorithms, applied to various data sets and use cases and see if there are good candidates to onboard into our projects or platform(s).
 
 To note I am also capturing additional notebooks that leverage Amazon SageMaker and their own improved implementation of some of these algorithms in this [aws-sagemaker-notebooks](https://github.com/FabG/aws-sagemaker-notebooks) repo.
@@ -185,10 +185,22 @@ The free parameters of kernel density estimation are the `kernel`, which specifi
 More information [here](https://scikit-learn.org/stable/modules/density.html)
 
 
-###### Kerne Density Notebooks
+###### Kernel Density Notebooks
  - [In Depth - Kernel Density Estimation](unsupervised-ml/kernel-density-estimation/kernel-density-estimation.ipynb)
 
-#### 3 Resources
+
+#### 3 Deep Learning
+##### Pytorch Notebooks
+Below notebooks are related to the the Facebook [pytorch](https://pytorch.org) deep learning framework.
+They are using [colab](https://colab.research.google.com/) notebooks, and refer to the [pytorch tutorials](https://pytorch.org/tutorials/beginner/basics/intro.html)
+ - [Tensors tutorial](deep-learning/pytorch_tutorial_tensors.ipynb)
+
+
+##### Tensorflow Notebooks
+Below notebooks are related to the the Google [tensorflow](https://www.tensorflow.org) deep learning framework.
+...
+
+#### 4 Resources
  - [Kaggle game of wines](https://www.kaggle.com/booleanhunter/game-of-wines)
  - [In depth Principal Component Analysis](https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html)
  - [Python Data Science handbook (and notebooks)](https://github.com/jakevdp/PythonDataScienceHandbook)
