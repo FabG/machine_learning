@@ -113,8 +113,53 @@ A primary disadvantage of random forests is that the results are not easily inte
  - [In depth - Random Forest](supervised-ml/random-forest/random-forests.ipynb)
  - [RandomForest as a Multi-classifier Vs Decision Tree and GuassianNB on Wine data](supervised-ml/random-forest/random-forest-game-of-wines.ipynb)
 
+##### 2.1.5 XGboost
+[XGBoost](https://xgboost.readthedocs.io/) is an algorithm that has recently been dominating applied machine learning and Kaggle competitions for structured or tabular data.
 
-##### 2.1.5 Image Feature Extraction with HOG (Histogram of Oriented Gradients
+XGBoost is an implementation of gradient boosted decision trees designed for speed and performance.
+
+XGBoost is a **tree based ensemble machine learning algorithm** which is a scalable machine learning system for tree boosting. XGBoost stands for Extreme Gradient Boosting. It uses more accurate approximations to find the best tree model.
+
+- Boosting: N new training data sets are formed by random sampling with replacement from the original dataset, during which some observations may be repeated in each new training data set. The observations are weighted and therefore some of them may get selected in the new datasets more often.
+
+- Bagging: N new training data sets are formed by random sampling with replacement from the original dataset, where each observation has the same probability to appear in a new data set.
+
+- Gradient Boosting: It is an additive and sequential model where trees are grown in sequential manner which converts weak learners into strong learners by adding weights to the weak learners and reduce weights of the strong learners. So each tree learns and boosts from the previous tree grown
+
+
+What is boosting?
+The sequential ensemble methods, also known as “boosting”, creates a sequence of models that attempt to correct the mistakes of the models before them in the sequence. The first model is built on training data, the second model improves the first model, the third model improves the second, and so on.
+![XGBoost](images/XG-Boost.png)
+In the above image example, the train dataset is passed to the classifier 1. The yellow background indicates that the classifier predicted hyphen and blue background indicates that it predicted plus. The classifier 1 model incorrectly predicts two hyphens and one plus. These are highlighted with a circle. The weights of these incorrectly predicted data points are increased and sent to the next classifier. That is to classifier 2. The classifier 2 correctly predicts the two hyphen which classifier 1 was not able to. But classifier 2 also makes some other errors. This process continues and we have a combined final classifier which predicts all the data points correctly.
+
+The classifier models can be added until all the items in the training dataset is predicted correctly or a maximum number of classifier models are added. The optimal maximum number of classifier models to train can be determined using hyperparameter tuning.
+
+What is gradient boosting?
+In gradient boosting while combining the model, the loss function is minimized using gradient descent. Technically speaking, a loss function can be said as an error, ie the difference between the predicted value and the actual value. Of course, the less the error, the better is the machine learning model.
+
+Gradient boosting is an approach where new models are created that predict the residuals or errors of prior models and then added together to make the final prediction.
+
+The objective of the XGBoost model is given as:
+
+`Obj = L + Ω`
+
+Where L is the loss function which controls the predictive power, and Ω is regularization component which controls simplicity and overfitting
+
+The loss function (L) which needs to be optimized can be Root Mean Squared Error for regression, Logloss for binary classification, or mlogloss for multi-class classification.
+
+The regularization component (Ω) is dependent on the number of leaves and the prediction score assigned to the leaves in the tree ensemble model.
+
+It is called gradient boosting because it uses a gradient descent algorithm to minimize the loss when adding new models. The Gradient boosting algorithm supports both regression and classification predictive modelling problems.
+
+If you want to know about gradient descent, then you can read about it here.
+
+All right, we have understood how machine learning evolved from simple models to a combination of models. Somehow, humans cannot be satisfied for long, and as problem statements became more complex and the data set larger, we realised that we should go one step further. This leads us to XGBoost.
+
+###### XGboost Notebooks
+ - [XGboost notebook](supervised-ml/xgboost/xgboost.ipynb)
+
+
+##### 2.1.6 Image Feature Extraction with HOG (Histogram of Oriented Gradients
 **HOG** (Histogram of Oriented Gradients) is a feature extraction technique which transforms image pixels into a vector representation that is sensitive to broadly informative image features regardless of confounding factors like illumination.
 
 ###### HOG Notebooks
